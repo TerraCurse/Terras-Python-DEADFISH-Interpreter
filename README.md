@@ -7,6 +7,6 @@ A simple interpreter for DEADFISH.
 - o ; Prints the current accumulator value as an ASCII character.
 - r ; Resets the accumulator back to zero.
 ## EXAMPLES:
->Hello
->> iiiiiiiisiiiiiiiiodddoiiiiiiiooiiior
-> Outputs: HELLO
+*Hello* <br>
+``iiiiiiiisiiiiiiiiodddoiiiiiiiooiiior`` <br>
+**Outputs: HELLO**
