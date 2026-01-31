@@ -9,7 +9,7 @@ def interprete(code:str):
             else:
                 acc += 1
         elif chara == "d":
-            if (acc - 1) < 1:
+            if (acc - 1) < 0:
                 acc = 255
             else:
                 acc -= 1
@@ -21,7 +21,7 @@ def interprete(code:str):
         elif chara == "o":
             print(chr(acc),end="")
         elif chara == "r":
-            acc = 1
+            acc = 0
 
 
 if len(sys.argv) > 1:
@@ -44,3 +44,4 @@ else:
         except KeyboardInterrupt:
             print("Exitting TPDFI console.")
             exit()
+
